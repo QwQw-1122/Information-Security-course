@@ -109,6 +109,21 @@ when we add -- anything written after this will consider as a comment
 <img width="845" alt="image" src="https://github.com/QwQw-1122/Information-Security-course/assets/142783507/1531e111-d122-4249-b7d3-6afb3db98ab2">
 
 
+## Web Goat - SQL injection
+Assignment 1
+<img width="256" alt="image" src="https://github.com/QwQw-1122/Information-Security-course/assets/142783507/6d517a77-dc28-437b-9a04-b3b5d75daeca">
+
+Assignment 2
+<img width="266" alt="image" src="https://github.com/QwQw-1122/Information-Security-course/assets/142783507/bfb725bf-0636-4820-b155-04189c0e12cc">
+
+Assignment 3
+<img width="252" alt="image" src="https://github.com/QwQw-1122/Information-Security-course/assets/142783507/3c73f34f-ea45-4668-aa2a-a2091bcbf78d">
+
+
+
+
+
+
 
 
 
