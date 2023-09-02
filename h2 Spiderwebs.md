@@ -3,16 +3,16 @@
 ## x) Read and summarize
 
 ### Security Misconfiguration
-This occur when certain vulnerabilities are present in an application due to improper settings. These vulnerabilities include missing security measures, enabled unnecessary features, unchanged default accounts, error handling revealing sensitive information, and more.
-To prevent security misconfigurations, it is important to implement secure installation processes, such as using repeatable hardening procedures to ensure consistent configurations across different environments. And recommends maintaining a minimal environment with only essential features, updating configurations in line with security notes and patches, reviewing cloud storage permissions, using segmented application architecture for better separation between components, sending security directives to clients, and employing automated processes to verify configuration effectiveness across environments.
+This occur when certain vulnerabilities are present in an application due to improper settings. These vulnerabilities include missing security measures, enabled unnecessary features, unchanged default accounts, error handling revealing sensitive information, and many more.
+To prevent security misconfigurations, it is important to follow secure installation processes, such as using repeatable hardening procedures to ensure good configurations across different environments. And making sure to maintaining a minimal environment with only essential features, updating configurations in line with security notes and patches, reviewing cloud storage permissions, using segmented application architecture for better separation between components, sending security directives to clients, and employing automated processes to verify configuration effectiveness across environments.
 
 ### Vulnerable and Outdated Components
 The application might be at risk if there is lack of knowledge about component versions, usage of unsupported software, failure to scan for vulnerabilities, and neglecting timely updates. 
-To prevent these risks, it is recommend to implement a patch management process to remove unused dependencies, regularly tracking component versions and vulnerabilities, obtaining components from secure sources, and monitoring unmaintained libraries. This also shows the need for ongoing monitoring, updates, and configuration changes throughout the software's lifetime.
+To prevent these risks, it is usefull to implement a patch management process to remove unused dependencies, regularly tracking component versions and vulnerabilities, get components from secure sources, and monitoring unmaintained libraries. This also shows the need for continues monitoring, updates, and configuration changes throughout the software's lifetime.
 
 ### Injection
-This happens when user-supplied data isn't properly validated or sanitized, leading to potential attacks. Various types of injections, including SQL, NoSQL, OS command, ORM, LDAP, and Expression Language injections, are covered. 
-Preventive measures involve keeping data separate from commands, using safe APIs, employing positive server-side input validation, escaping special characters, and using SQL controls like LIMIT to prevent mass data disclosure. And also suggests utilizing source code reviews and testing tools like SAST, DAST, and IAST in the CI/CD pipeline to identify injection flaws before deployment.
+This happens when user-supplied data isn't properly validated or sanitized, leading to potential attacks. Various types of injections, including SQL, NoSQL, OS command, ORM, LDAP, and Expression Language injections, can find. 
+For Prevent these we can keep data separate from commands, using safe APIs, employing positive server-side input validation, escaping special characters, and using SQL controls like LIMIT to stop mass data disclosure. And also suggests utilizing source code reviews and testing tools like SAST, DAST, and IAST in the CI/CD pipeline to identify injection vulnerabilities before deployment.
 
 ## a) Install webgoat
 
