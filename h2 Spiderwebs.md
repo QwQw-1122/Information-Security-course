@@ -80,9 +80,9 @@ sudo apt-get -y dist-upgrade
 ![image](https://github.com/QwQw-1122/Information-Security-course/assets/142783507/dc269a0b-1df1-4b58-be09-4c321612250b)
 
 ## e) Johnny tables. Solve Portswigger Labs - SQL injection
-when we go to the website and search for a category the website link apears as below
+when we go to the website and search for a category the website link apears as below.
 
-b0346dba681f7d9f900780082.web-security-academy.net/filter?category=Clothing%2c+shoes+and+accessories
+b0346dba681f7d9f900780082.web-security-academy.net/filter?category=Clothing%2c+shoes+and+accessories.
 
 This will give the below SQL
 
